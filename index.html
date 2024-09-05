@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaget-store</title>
+
+    <!-- link favicon  -->
+
+    <link
+      rel="shortcut icon"
+      href="./hot-gagets-imgs/logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- link font  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link bs  -->
+
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+
+
+
+  <body>
+
+
+    <!-- navber  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container align-items-end">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img
+                src="./hot-gagets-imgs/logo.png"
+                alt="Bootstrap"
+                
+                height="80"
+                />
+            </a>
+            </div>
+
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse  " id="navbarNav">
+                <ul class="navbar-nav  ">
+                    <li class="nav-item">
+                    <a class="nav-link display-ruby-text  active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link display-ruby-text" href="#product">Products</a>
+                    </li>
+                    <li class="nav-item ">
+                    <a class="nav-link display-ruby-text " href="#catagory">
+                      Catagory
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link display-ruby-text" href="#contact" >Contact us</a>
+                    </li>
+                </ul>
+            </div>
+      </div>
+    </nav>
+
+
+
+    <!-- carausel section  -->
+
+  <section id="home" class="container">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner ">
+          <div class="carousel-item active ">
+            <div class="d-flex justify-content-between align-items-center carausel-bg">
+              <div class="w-50 mt-5">
+                    <h2 class="color mt-5 fw-bold mb-4">
+                      Mac Book Air 
+                    </h2>
+                    <p class="mb-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa, tempore.Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Culpa, tempore.
+                    </p>
+                    <button class="btn btn-dark shadow mb-5">Buy Now!&#8594;</button>
+                    <div><img class="mt-5" src="./hot-gagets-imgs/bg-2.png" alt="#" height="150px"></div>
+              </div>
+              <div class="w-50 ">
+                    <img
+                    src="./hot-gagets-imgs/banner-products/product-1.png"
+                    class="d-block ms-auto"
+                    alt="headphone"
+                    height="500px"
+                    />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div  class="d-flex justify-content-between align-items-center carausel-bg">
+              <div class="w-50 mt-5">
+                    <h2 class="color mt-5 fw-bold mb-4">
+                      HomePod mini 
+                    </h2>
+                    <p class="mb-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa, tempore.Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Culpa, tempore.
+                    </p>
+                    <button class="btn btn-dark shadow mb-5">Buy Now!&#8594;</button>
+                    <div><img class="mt-5" src="./hot-gagets-imgs/bg-2.png" alt="" height="150px"></div>
+              </div>
+              <div class="w-50">
+                    <img
+                    src="./hot-gagets-imgs/banner-products/slider-1.png"
+                    class="d-block ms-auto"
+                    height="500px"
+                    alt="tv"
+                    />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div  class="d-flex justify-content-between align-items-center carausel-bg" >
+                <div class="w-50 mt-5">
+                    <h2 class="color mt-5 fw-bold mb-4">Wireless Bluetooth Speaker</h2>
+                    <p class="mb-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa, tempore.Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Culpa, tempore.
+                    </p>
+                    <button class="btn btn-dark shadow mb-5">Buy Now!&#8594;</button>
+                    <div><img class="mt-5" src="./hot-gagets-imgs/bg-2.png" alt="#" height="150px"></div>
+                </div>
+              <div class="w-50">
+                    <img
+                    src="./hot-gagets-imgs/banner-products/slider-3.png"
+                    class="d-block ms-auto"
+                    height="500px"
+                    alt="xbox"
+                    />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+    
+
+<!-- smartphone section  -->
+    <section id="product" class="container">
+      <div class="d-flex justify-content-between align-items-center mt-5"> 
+        <h2 class="fw-bold">Smartphone</h2>
+        <a class="anchor-color" href="#">See all</a>
+      </div>
+      
+
+
+    <!-- smartphone  card  -->
+        <div class=" row mt-5">
+            <div class=" col-lg-4 col-md-6 col-sm-12 my-3 ">
+              <div class="card shadow border border-0" >
+                <img src="./hot-gagets-imgs/phone/phone-1.png" class="card-img-top pt-2" alt="realme">
+                <div class="card-body text-center">
+                    <h4 class="card-title fw-bold">Realme 11 pro</h4>
+                    <p class="card-text smalltext">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
+                    <p class="fw-bold fs-4">$999</p>
+                    <button class="btn btn-dark shadow">Buy Now!&#8594;</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+              <div class="card shadow border border-0" >
+                <img src="./hot-gagets-imgs/phone/phone-2.png" class="card-img-top pt-2" alt="iPhone">
+                <div class="card-body text-center">
+                  <h4 class="card-title fw-bold">iPhone 11 Pro</h4>
+                  <p class="card-text smalltext">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
+                  <p class="fw-bold fs-4">$999</p>
+                  <button class="btn btn-dark shadow">Buy Now!&#8594;</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-12 my-3 ">
+              <div class="card shadow border border-0" >
+                <img src="./hot-gagets-imgs/phone/phone-3.png" class="card-img-top pt-2" alt="Samsung">
+                <div class="card-body text-center">
+                  <h4 class="card-title fw-bold">Samsung Galaxy</h4>
+                  <p class="card-text smalltext">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
+                  <p class="fw-bold fs-4">$999</p>
+                  <button class="btn btn-dark shadow">Buy Now!&#8594;</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- laptop section  -->
+    <section class="container">
+      <div class="d-flex justify-content-between align-items-center mt-5"> 
+        <h2 class="fw-bold">Laptops</h2>
+        <a class="anchor-color" href="#">See all</a>
+      </div>
+      
+
+
+    <!-- laptop card  -->
+        <div class=" row mt-5 ">
+            <div class=" col-lg-4 col-md-6 col-sm-12 my-3">
+              <div class="card shadow border border-0" >
+                <img src="./hot-gagets-imgs/laptop/product-1.png" class="card-img-top pt-2 lap-width mx-4" alt="laptop-1" >
+                <div class="card-body text-center">
+                    <h4 class="card-title fw-bold">Asus VivoBook</h4>
+                    <p class="card-text smalltext">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
+                    <p class="fw-bold fs-4">$1899</p>
+                    <button class="btn btn-dark shadow">Buy Now!&#8594;</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 my-3">
+              <div class="card shadow border border-0" >
+                <img src="./hot-gagets-imgs/laptop/product-2.png" class="card-img-top pt-2 lap-width mx-4" alt="laptop-2">
+                <div class="card-body text-center">
+                  <h4 class="card-title fw-bold">Razor Blade 15</h4>
+                  <p class="card-text smalltext">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
+                  <p class="fw-bold fs-4">$2799</p>
+                  <button class="btn btn-dark shadow">Buy Now!&#8594;</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-12 my-3">
+              <div class="card shadow border border-0" >
+                <img src="./hot-gagets-imgs/laptop/product-3.png" class="card-img-top pt-2 lap-width mx-4" alt="laptop-3">
+                <div class="card-body text-center">
+                  <h4 class="card-title fw-bold">Xioami Notebook Pro</h4>
+                  <p class="card-text smalltext">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
+                  <p class="fw-bold fs-4">$1479</p>
+                  <button class="btn btn-dark shadow">Buy Now!&#8594;</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- catagory section  -->
+
+
+    <section id="catagory" class="container mt-5">
+      <div class=" text-center mb-5">
+        <h1 class="fw-bold underline underline-gradiant">Catagory</h1>
+      </div>
+
+      
+      <div class="row">
+        <!-- left-div  -->
+         <div class="col-lg-6 col-md-6 col-sm-12 ">
+          <div class="row marginleft">
+              <!-- div 1 img -->
+              <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
+                <img src="./hot-gagets-imgs/Categories/bag.png" alt="bag">
+              </div>
+                <!-- div 2 img -->
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="mb-3 mt-5">
+                  <img src="./hot-gagets-imgs/Categories/perfume.png" alt="perfume">
+                </div>
+                <div class="mt-5">
+                  <img src="./hot-gagets-imgs/Categories/shoe.png" alt="">
+                </div>
+              </div>
+          </div>
+        </div>
+
+         <!-- right div  -->
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <img src="./hot-gagets-imgs/Categories/pale-order.png" alt="pale-order" height="350px">
+          </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- contact section  -->
+
+    <section id="contact" class="container mt-5">
+      <div class=" text-center mb-5">
+        <h1 class="mt-5 mb-5 fw-bold underline underline-gradiant">Contact</h1>
+      </div>
+      <div class="row">
+         <!-- left  -->
+        <div class="w-50 col-lg-6 col-md-6 col-sm-12">
+          <div class=" contact-bg">
+            <img src="./hot-gagets-imgs/bg-2.png" alt="#" >
+            <div class="contact-text">
+              <h2 class="fw-bold">Contact us</h2>
+              <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam reiciendis, autem debitis aliquam consequatur possimus. Aperiam reiciendis, autem debitis aliquam consequatur possimus.</p>
+            </div>
+          </div>
+
+        </div>
+        <!-- right  -->
+        <div class="w-50 col-lg-6 col-md-6 col-sm-12">
+          <div class="mx-5">
+            <div class="d-flex  align-items-center">
+                <div class="me-1">
+                  <label class=" fw-bold mt-3 d-block" for="fastname">First name*</label>
+                  <input id="fastname" type="text" size="14px">
+                </div>
+
+                <div class= "ms-5">
+                  <label class=" fw-bold mt-3 d-block" for="lastname">Last name</label>
+                  <input id="lastname" type="text" size="14px">
+                </div>
+            </div>
+
+
+            <form action="#">
+              <label class="d-block fw-bold mt-3" for="email">Email*</label>
+              <input class="" type="mail" size="40px">
+
+              <label class="d-block fw-bold mt-3" for="massege">What can we help you!</label>
+              <textarea name="massege" id="massege" cols="43px" ></textarea>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <footer class="text-black-50 text-center mt-5 bg-secondary fontSize bg-opacity-25">© All rights reserved by Hot gadgets</footer>
+
+
+    <!-- link bs js -->
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
